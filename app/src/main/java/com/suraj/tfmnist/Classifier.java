@@ -18,13 +18,13 @@ import java.util.Arrays;
 public class Classifier {
     private static final String LOG_TAG = Classifier.class.getSimpleName();
 
-    private static final String MODEL_PATH = "mnist.tflite";
+    private static final String MODEL_PATH = "emnist_model.tflite";
 
     private static final int DIM_BATCH_SIZE = 1;
     public static final int DIM_IMG_SIZE_HEIGHT = 28;
     public static final int DIM_IMG_SIZE_WIDTH = 28;
     private static final int DIM_PIXEL_SIZE = 1;
-    private static final int CATEGORY_COUNT = 10;
+    private static final int CATEGORY_COUNT = 47;
 
     private final Interpreter mInterpreter;
     private final ByteBuffer mImgData;

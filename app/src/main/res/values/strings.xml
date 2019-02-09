@@ -4,8 +4,8 @@
     <string name="Process">process</string>
     <string name="detect">detect</string>
     <string name="im">Image input</string>
-    <string name="ans">Predction</string>
-    <string name="prob">Probs</string>
+    <string name="ans">Predction:</string>
+    <string name="prob">Probs:</string>
     <string name="probOP">Probability</string>
     <string name="predOP">Model\'s Prediction</string>
 </resources>
